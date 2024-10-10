@@ -1,0 +1,6 @@
+function generateRobuxCode(value: number): string {
+    return `+${value} robux`;
+}
+
+const robuxCode = generateRobuxCode(10000);
+console.log(robuxCode); // +10000 robux
